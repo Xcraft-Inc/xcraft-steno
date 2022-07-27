@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import * as fs from 'fs'
+import * as path from 'path'
 
 // Returns a temporary file
 // Example: for /some/file will return /some/.file.tmp

@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs'
 import { mkdtemp, writeFile } from 'fs/promises'
-import os from 'os'
-import path from 'path'
+import * as os from 'os'
+import * as path from 'path'
 
 import { Writer } from './index.js'
 
